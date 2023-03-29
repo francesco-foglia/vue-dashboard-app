@@ -1,0 +1,38 @@
+{
+  "power-production": 5.4,
+  "month-energy": 1234,
+  "today-energy": 2034.4,
+  "left-time-energy": 20.4,
+  "logs": [
+    {
+      "date": "2021-10-01 20:20:01",
+      "text": "Update completed",
+      "type": "info"
+    },
+    {
+      "date": "2021-10-02 19:20:01",
+      "text": "Something goes wrong during the system boot. Restarting...",
+      "type": "error"
+    },
+    {
+      "date": "2021-10-02 19:21:15",
+      "text": "The system is just restarted: Everything is operational.",
+      "type": "info"
+    },
+    {
+      "date": "2021-10-03 11:11:54",
+      "text": "The system is generating a good amount of energy.",
+      "type": "info"
+    },
+    {
+      "date": "2021-10-04 14:15:47",
+      "text": "System check requested.",
+      "type": "warning"
+    },
+    {
+      "date": "2021-10-05 15:15:12",
+      "text": "Everything is operational.",
+      "type": "warning"
+    }
+  ]
+}
