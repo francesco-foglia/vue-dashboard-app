@@ -4,7 +4,7 @@
     <div v-if="weatherData">
       <div class="flex justify-center items-center">
         <!-- Display weather icon -->
-        <img class="w-[100px] h-[100px]" :src="`http://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`"
+        <img class="w-[100px] h-[100px]" :src="`https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`"
           alt="Weather icon">
         <div class="ml-5">
           <!-- Display temperature in Celsius -->

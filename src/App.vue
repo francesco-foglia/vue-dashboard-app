@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex container mx-auto p-5 overflow-x-hidden">
+  <div class="min-h-screen flex container mx-auto py-5 px-[5%] overflow-x-hidden">
     <div class="m-auto container">
       <PowerComponent />
     </div>
