@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* Prevents automatic zoom on iOS on input/field */
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+  background-color: #0F1923 !important;
+  /* Prevents horizontal scroll at any resolution */
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Digit counter cell: fluid width with clamp, never below 24px */
+.digit-cell {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* Fluid adaptation: from 24px on 320px to 38px on desktop */
+  width: clamp(24px, calc((100% - 9 * 2px - 32px) / 9), 42px);
+  min-width: 24px;
+  height: clamp(36px, 7vw, 54px);
+  background: #0F1923;
+  border: 1px solid rgba(0, 200, 83, 0.3);
+  border-radius: 6px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: clamp(0.85rem, 3vw, 1.5rem);
+  font-weight: 700;
+  color: #00C853;
+  box-shadow:
+    inset 0 2px 8px rgba(0, 0, 0, 0.5),
+    0 0 6px rgba(0, 200, 83, 0.15);
+  letter-spacing: 0;
+}
